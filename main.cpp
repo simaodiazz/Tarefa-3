@@ -7,14 +7,13 @@ int main() {
     char *prt = s;
     cout << "Introduza uma string: ";
     cin >> *prt;
-    cout << endl;
 
     if (s[0] == '\0') {
         cout << "String vazia";
     } else {
         int i = 0;
-        while (prt[0] != '\0') {
-            cout << prt[0];
+        while (prt[i] != '\0') {
+            cout << prt[i];
             i++;
         }
 
